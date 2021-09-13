@@ -1,7 +1,4 @@
 .container {
-    display: grid;
-    grid-template-columns: repeat(16, 1fr);
-    grid-template-rows: repeat(16, 1fr);
     gap: 2px;
     height: 100vh;
     
@@ -9,10 +6,19 @@
 
 }
 .item {
-    background: peachpuff;
-    border: 2px solid red;
+    background: black;
+    border: 2px solid black;
     padding: 10px;
 
 
     
+}
+.item:hover {
+    background: white;
+
+}
+
+button { 
+    height: 37px;
+    width: 100px;
 }
